@@ -46,7 +46,7 @@ set(EASY_OPTION_CHECK_MAX_VALUE_SIZE   OFF    CACHE BOOL   "Enable checking EASY
 set(EASY_OPTION_LOG                    OFF    CACHE BOOL   "Print errors to stderr")
 set(EASY_OPTION_PRETTY_PRINT           OFF    CACHE BOOL   "Use pretty-printed function names with signature and argument types")
 set(EASY_OPTION_PREDEFINED_COLORS      ON     CACHE BOOL   "Use predefined set of colors (see profiler_colors.h). If you want to use your own colors palette you can turn this option OFF")
-set(BUILD_SHARED_LIBS                  ON     CACHE BOOL   "Build easy_profiler as shared library.")
+set(BUILD_SHARED_LIBS                  OFF     CACHE BOOL   "Build easy_profiler as shared library.")
 if (WIN32)
     set(EASY_OPTION_IMPLICIT_THREAD_REGISTRATION ON CACHE BOOL ${EASY_OPTION_IMPLICIT_THREAD_REGISTER_TEXT})
     set(EASY_OPTION_EVENT_TRACING                ON CACHE BOOL "Enable event tracing by default")
